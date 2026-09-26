@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transfer fee</title>
+  </head>
+  <body>
+    <main>
+      <h1>Transfer fee</h1>
+      <form id="fee-form">
+        <label for="amount">Amount (FCFA)</label>
+        <input id="amount" type="number" inputmode="numeric" min="1" required />
+        <button type="submit">Show the fee</button>
+      </form>
+      <p id="result"></p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
